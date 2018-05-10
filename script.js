@@ -1,6 +1,9 @@
 // GLOBAL VARIABLES:
 
 // TODO -- re-factor w global variable for document.getElementById('numberInput').value; remember to update global variable within function scope.
+// var input = document.getElementById('numberInput').value
+
+// NOTE -- tried to re-factor w a global variable (as above), but the program became harder to understand (less intuitive), with only slightly less characters used
 
 // FUNCTION to append num (or symbol) to text-field
 function insert(num) {
